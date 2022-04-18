@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/idRelativeLayout"
+    android:background="@color/itemcolor"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/idLinear"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        tools:ignore="UselessParent"
+        android:divider="@android:color/white"
+        android:dividerHeight="10dp"
+        >
+
+        <TextView
+            android:id="@+id/idExName"
+            android:layout_width="205dp"
+            android:layout_height="match_parent"
+            android:gravity="start"
+            android:text="Name: "
+            android:paddingStart="5dp"/>
+
+        <TextView
+            android:id="@+id/idKg"
+            android:layout_width="61dp"
+            android:layout_height="match_parent"
+            android:gravity="start"
+            android:text="Kgs: " />
+
+        <TextView
+            android:id="@+id/idSets"
+            android:layout_width="59dp"
+            android:layout_height="match_parent"
+            android:gravity="start"
+            android:text="Sets: " />
+
+        <TextView
+            android:id="@+id/idReps"
+            android:layout_width="68dp"
+            android:layout_height="match_parent"
+            android:gravity="start"
+            android:text="Reps: " />
+
+    </LinearLayout>
+
+</RelativeLayout>
